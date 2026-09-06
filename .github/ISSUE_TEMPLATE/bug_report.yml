@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible problem with an image workflow.
+title: 'bug: '
+body:
+  - type: markdown
+    attributes:
+      value: 'Do not attach private images or credentials. For security findings, follow SECURITY.md.'
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and operating system
+      placeholder: 'Chrome 140, Windows 11'
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the image format and dimensions, and whether a sample image also reproduces it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: recipe
+    attributes:
+      label: Recipe JSON
+      description: Export the recipe from Share. Remove any sensitive text from filename patterns.
+      render: json
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Optional console error or screenshot. Only include material you are comfortable making public.

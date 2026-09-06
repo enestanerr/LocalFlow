@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "name": "Compact previews",
+  "steps": [
+    {
+      "id": "step-resize",
+      "type": "resize",
+      "enabled": true,
+      "width": 640,
+      "height": 640,
+      "enlarge": false
+    },
+    {
+      "id": "step-format",
+      "type": "format",
+      "enabled": true,
+      "format": "webp",
+      "quality": 75,
+      "background": "#ffffff"
+    }
+  ]
+}

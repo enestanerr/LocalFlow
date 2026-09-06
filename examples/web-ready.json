@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "name": "Web-ready images",
+  "steps": [
+    {
+      "id": "step-resize",
+      "type": "resize",
+      "enabled": true,
+      "width": 1600,
+      "height": 1600,
+      "enlarge": false
+    },
+    {
+      "id": "step-format",
+      "type": "format",
+      "enabled": true,
+      "format": "webp",
+      "quality": 80,
+      "background": "#ffffff"
+    },
+    {
+      "id": "step-rename",
+      "type": "rename",
+      "enabled": true,
+      "template": "{name}-{n}",
+      "start": 1
+    }
+  ]
+}

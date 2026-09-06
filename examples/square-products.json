@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "name": "Square product shots",
+  "steps": [
+    {
+      "id": "step-crop",
+      "type": "crop",
+      "enabled": true,
+      "ratio": "1:1",
+      "anchor": "center"
+    },
+    {
+      "id": "step-resize",
+      "type": "resize",
+      "enabled": true,
+      "width": 1200,
+      "height": 1200,
+      "enlarge": false
+    },
+    {
+      "id": "step-format",
+      "type": "format",
+      "enabled": true,
+      "format": "jpeg",
+      "quality": 90,
+      "background": "#ffffff"
+    }
+  ]
+}
