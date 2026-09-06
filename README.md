@@ -148,4 +148,4 @@ For security findings, follow [SECURITY.md](SECURITY.md).
 
 ## License
 
-MIT. Third-party dependencies retain their own licenses. See `LICENSE`.
+MIT. See [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md).
